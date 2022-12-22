@@ -1,12 +1,5 @@
-*{
-    box-sizing:border-box;
-}
+.App{
+    text-align: center;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Femojipedia.org%2Fcookie%2F&psig=AOvVaw11UmiJcdNkw7cVtfaFpLWC&ust=1671732672758000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjkttani_wCFQAAAAAdAAAAABAD');
 
-body{
-margin: 0;
-
-}
-.container{
-margin: 1rem;
-text-align: center;
 }
