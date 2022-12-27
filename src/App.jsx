@@ -2,25 +2,20 @@ import Navbar from "./Components/Navbar";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
-import "./App.css"
+import "./App.css";
 import { Route, Routes } from "react-router-dom";
 function App() {
-  
-  return(
+	return (
+		<>
+			<Navbar />
 
-  <>
-  
-  <Navbar/>
-  
-   <Routes>
-    <Route path="/" element={<Home/>}/>
-    <Route path="/Contact" element={<Contact/>}/>
-    <Route path="/About" element={<About/>}/>
-   </Routes>
-  
-  
-  </>
-  )
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/Contact" element={<Contact />} />
+				<Route path="/About" element={<About />} />
+			</Routes>
+		</>
+	);
 }
 
 export default App;
