@@ -1,0 +1,69 @@
+
+@keyframes navbar_links_anim {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: rgba(178, 34, 34, .50);
+    }
+}
+
+.navbar_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5em;
+    background-color: white;
+    box-shadow: 0 1em 1em rgba(0, 0, 0, .45);
+}
+
+.navbar_brand {
+    font-size: 1.35em;
+    font-weight: 600;
+    align-self: center;
+}
+
+.navbar_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 1em;
+}
+
+.navbar_links * {
+    text-decoration: none !important;
+}
+
+.navbar_links .navbar_link_link_active {
+    color: rgb(35, 114, 182) !important;
+}
+
+.navbar_links .navbar_link_link_inactive {
+    color: black;
+}
+
+.navbar_link_inactive {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.navbar_link_active {
+    background-color: rgba(178, 34, 34, .25);
+    pointer-events: none;
+}
+
+.navbar_links > span {
+    padding: .45em;
+    padding-left: .55em;
+    margin-left: .15em;
+    margin-right: .5em;
+    border-radius: 1em;
+    align-self: center;
+}
+
+.navbar_links > span:hover:not(.navbar_link_link_active) {
+    animation-name: navbar_links_anim;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}

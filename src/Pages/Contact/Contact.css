@@ -1,0 +1,19 @@
+
+.contact_layout {
+    align-self: center;
+    background-color: white;
+    border-radius: 1em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    font-size: 1.5em;
+    width: 50%;
+    text-align: center;
+}
+
+.contact_layout > i {
+    margin-right: .5em;
+}
+
+.contact_layout > a {
+    text-decoration: none;
+}

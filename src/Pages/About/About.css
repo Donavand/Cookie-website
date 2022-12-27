@@ -1,0 +1,20 @@
+.about_layout{
+    font-size: 1.25em;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid rgb(46, 151, 243);
+    background-color: rgba(46, 151, 243, .98);
+    margin: 2em;
+    padding: 1em;
+}
+
+.about_content {
+    text-indent: 2em;
+    color: black;
+    font-weight: 600;
+}
+
+.about_header {
+    color: #823c13;
+    font-weight: 1000;
+}
