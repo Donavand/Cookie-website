@@ -4,13 +4,13 @@ body{
     background-image: url('https://t4.ftcdn.net/jpg/02/07/34/41/360_F_207344174_j5LdXlKgzM8MbzLKvp8lq5Ob5LD6PoEz.jpg');
 }
 h1{
-    color: black;
+    color:black(165, 42, 42, 0.854);
      text-align: center;  
      font-weight: bolder;  
      
 }
 p{
-    color:black; 
+    color:brown; 
     font-size: larger;
     font-weight: bold;
 

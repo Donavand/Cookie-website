@@ -41,9 +41,9 @@ body{
     align-items: center;
     padding: .25rem;
 }
-.nav li.active{
-    background: color #555;
+.nav li:active{
+    background-color: brown;
 }
-.nav li.hover{
-    background-color: #777;
+.nav li:hover{
+    background-color:brown
 }
