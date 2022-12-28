@@ -17,7 +17,7 @@ p{
     border: 1px solid rgb(46, 151, 243);
     background-color:white;
     margin: 0;
-   position: absolute;
+   position:static;
     top: 40%;
   transform: translateY(-50%);
     
