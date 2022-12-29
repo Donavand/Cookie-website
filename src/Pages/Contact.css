@@ -1,11 +1,6 @@
-
-.textbox2 {
-    text-align: center;
-    border: 1rem solid rgb(46, 151, 243);
-    border-radius: 1px;
-    background-color:white;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:auto;
-    margin-bottom:auto;    
+.textbox-Contact {
+	text-align: center;
+	border: 1rem solid rgb(46, 151, 243);
+	border-radius: 1px;
+	background-color: white;
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
 export default function Home() {
-    return (
-        <div className="textbox3">
-            <h1> Home </h1>
-            </div>
-    )
+	return (
+		<div className="">
+			<h1> Home </h1>
+		</div>
+	);
 }

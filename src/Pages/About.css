@@ -1,28 +1,7 @@
-body{
-    display: block;
-    text-align: center;
-    background-image: url('https://t4.ftcdn.net/jpg/02/07/34/41/360_F_207344174_j5LdXlKgzM8MbzLKvp8lq5Ob5LD6PoEz.jpg');
+.textbox-About {
+	text-align: center;
+	border-radius: 1rem;
+	border: 1px solid rgb(46, 151, 243);
+	background-color: white;
+	height: 88%;
 }
-h1{
-    color:black(165, 42, 42, 0.854);
-     text-align: center;  
-     font-weight: bolder;  
-     
-}
-p{
-    color:brown; 
-    font-size: larger;
-    font-weight: bold;
-
-}
-.textbox{
-    text-align: center;
-    border-radius: 1rem;
-    border: 1px solid rgb(46, 151, 243);
-    background-color:white;
-    margin: 0;
-   position: absolute;
-    top: 40%;
-  transform: translateY(-50%);
-    
-  }

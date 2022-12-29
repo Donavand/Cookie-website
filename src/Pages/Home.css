@@ -1,24 +1,6 @@
-
-h1{
-    color:black(165, 42, 42, 0.854);
-     text-align: center;  
-     font-weight: bolder;  
-     
+.textbox-Home {
+	text-align: center;
+	border-radius: 1rem;
+	border: 1px solid rgb(46, 151, 243);
+	background-color: white;
 }
-p{
-    color:brown; 
-    font-size: larger;
-    font-weight: bold;
-
-}
-.textbox3{
-    text-align: center;
-    border-radius: 1rem;
-    border: 1px solid rgb(46, 151, 243);
-    background-color:white;
-    margin: 0;
-   position:static;
-    top: 40%;
-  transform: translateY(-50%);
-    
-  }
