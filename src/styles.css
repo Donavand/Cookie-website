@@ -1,17 +1,17 @@
 * {
-    font-family: 'Roboto Condensed', sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
-    margin: 0;
+	margin: 0;
 }
 
 #root {
-    width: 100vw;
-    height: 100vh;
-    background-image: url('https://t4.ftcdn.net/jpg/02/07/34/41/360_F_207344174_j5LdXlKgzM8MbzLKvp8lq5Ob5LD6PoEz.jpg');
+	width: 100vw;
+	height: 100vh;
+	background-image: url("https://t4.ftcdn.net/jpg/02/07/34/41/360_F_207344174_j5LdXlKgzM8MbzLKvp8lq5Ob5LD6PoEz.jpg");
 }
 
 .box_shadow {
-    box-shadow: 0 1em 1em rgba(0, 0, 0, .45);
+	box-shadow: 0 1em 1em rgba(0, 0, 0, 0.45);
 }
