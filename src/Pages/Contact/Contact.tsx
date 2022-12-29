@@ -2,7 +2,7 @@ import "./Contact.css";
 
 import React from "react";
 
-import { TextConstants } from "../../common";
+import { Center, TextConstants } from "../../common";
 
 /**
  * The contact page, which contains all the contact information
@@ -10,7 +10,7 @@ import { TextConstants } from "../../common";
  * @returns The contact page
  */
 export const Contact = (): JSX.Element => (
-    <div className="">
+    <Center>
         <h1>{TextConstants.CONTACT.TITLE}</h1>
 
         <i className="fa-sharp fa-solid fa-phone" />
@@ -20,5 +20,5 @@ export const Contact = (): JSX.Element => (
         <a href="mailto:chriscookies1@gmail.com">
             {TextConstants.CONTACT.EMAIL}
         </a>
-    </div>
+    </Center>
 );
