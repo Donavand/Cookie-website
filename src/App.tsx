@@ -14,7 +14,6 @@ import { About, Contact, Home } from "./Pages";
 export const App = (): JSX.Element => (
     <>
         <Navbar />
-
         <Routes>
             <Route element={<Home />} path="/Home" />
             <Route element={<Contact />} path="/Contact" />

@@ -1,8 +1,7 @@
-import "./About.css";
-
 import React from "react";
 
-import { TextConstants } from "../../common";
+import { Center, TextConstants } from "../../common";
+import styles from "./About.module.css";
 
 /**
  * Returns the about page
@@ -10,9 +9,12 @@ import { TextConstants } from "../../common";
  * @returns The about page
  */
 export const About = (): JSX.Element => (
-    <div className=".Children">
-        <h1>{TextConstants.ABOUT.TITLE}</h1>
-        <br />
-        <p>{TextConstants.ABOUT.DESCRIPTION}</p>
-    </div>
+    <Center>
+        <div className={styles.layout}>
+            <h1>{TextConstants.ABOUT.TITLE}</h1>
+            <p className={`${styles.description}`}>
+                {TextConstants.ABOUT.DESCRIPTION}
+            </p>
+        </div>
+    </Center>
 );
