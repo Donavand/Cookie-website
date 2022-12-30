@@ -1,0 +1,55 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 1px solid rgb(46, 151, 243);
+    background-color: white;
+    width: 90%;
+    align-self: center;
+}
+
+.contact_layout {
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid black;
+}
+
+.contact_information {
+    flex-direction: column;
+    display: flex;
+}
+
+.contact_phone_number {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    align-self: center;
+}
+
+.contact_phone_number_icon {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contact_email {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    align-self: center;
+}
+
+.contact_email_icon {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contact_email_link {
+    text-decoration: none;
+}
+
+.contact_phone_number_link {
+    text-decoration: none;
+}

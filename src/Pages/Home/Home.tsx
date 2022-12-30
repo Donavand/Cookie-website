@@ -2,7 +2,7 @@ import "./Home.css";
 
 import React from "react";
 
-import { TextConstants } from "../../common";
+import { Center, TextConstants } from "../../common";
 
 /**
  * The home page, which contains the welcome message and all information about the website we want to be seen first
@@ -10,7 +10,8 @@ import { TextConstants } from "../../common";
  * @returns The home page
  */
 export const Home = (): JSX.Element => (
-    <div className="">
+    <Center>
         <h1>{TextConstants.HOME.TITLE}</h1>
-    </div>
+        <div>{TextConstants.HOME.CONTENT}</div>
+    </Center>
 );
