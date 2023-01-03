@@ -18,7 +18,7 @@ export const Home = (): JSX.Element => (
         <div className="home_layout">
             <h1 className="home_title">{TextConstants.HOME.TITLE}</h1>
             <div className="home_subtitle">{TextConstants.HOME.CONTENT}</div>
-            <Carousel interval={500_000}>
+            <Carousel>
                 <Carousel.Item>
                     <img className="carousel_image" src={cookies1} />
                     <Carousel.Caption className="carousel_image_text">
