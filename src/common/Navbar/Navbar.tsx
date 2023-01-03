@@ -11,7 +11,7 @@ import { CustomLink } from "./CustomLink";
  */
 export const Navbar = (): JSX.Element => (
     <nav className="nav">
-        <Link className="Home" to="/">
+        <Link className="Home" to="/Home">
             {TextConstants.NAVBAR.BRAND}
         </Link>
         <ul>
