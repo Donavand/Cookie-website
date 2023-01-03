@@ -168,3 +168,12 @@
         width: 100%;
     }
 }
+
+/*
+    Iphone 12/13 Pro Max
+*/
+@media (max-width: 429px) {
+    .carousel {
+        width: 100%;
+    }
+}
