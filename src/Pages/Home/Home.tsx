@@ -5,6 +5,7 @@ import cookies1 from "./cookies1.jpg";
 import cookies2 from "./cookies2.jpg";
 import cookies3 from "./cookies3.jpg";
 import cookies4 from "./cookies4.jpg";
+import cookies5 from "./cookies5.jpg";
 import "./Home.css";
 
 /**
@@ -44,6 +45,13 @@ export const Home = (): JSX.Element => (
                     <Carousel.Caption>
                         <h3>{TextConstants.HOME.COOKIE_4_TITLE}</h3>
                         <p>{TextConstants.HOME.COOKIE_4_SUBTITLE}</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="carousel_image" src={cookies5} />
+                    <Carousel.Caption>
+                        <h3>{TextConstants.HOME.COOKIE_5_TITLE}</h3>
+                        <p>{TextConstants.HOME.COOKIE_5_SUBTITLE}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

@@ -20,6 +20,8 @@ export const TextConstants = {
         COOKIE_3_TITLE: "Sugar cookies",
         COOKIE_4_SUBTITLE: "Chips right from the Dutch",
         COOKIE_4_TITLE: "Chocolate Chip",
+        COOKIE_5_SUBTITLE: "Fresh from the oven",
+        COOKIE_5_TITLE: "Chocolate Chip",
         TITLE: "Bac N Cookies",
     },
     NAVBAR: {
