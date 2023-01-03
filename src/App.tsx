@@ -15,9 +15,9 @@ export const App = (): JSX.Element => (
     <>
         <Navbar />
         <Routes>
-            <Route element={<Home />} path="/Home" />
-            <Route element={<Contact />} path="/Contact" />
-            <Route element={<About />} path="/About" />
+            <Route element={<Contact />} path="/contact" />
+            <Route element={<About />} path="/about" />
+            <Route element={<Home />} path="*" />
         </Routes>
     </>
 );
