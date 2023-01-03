@@ -8,10 +8,12 @@
 
 .carousel {
     height: 50%;
+    border-radius: 1em;
 }
 
 .carousel-inner {
     height: 100%;
+    border-radius: 1em;
 }
 
 .carousel-item {
@@ -22,6 +24,8 @@
     height: 100%;
     min-height: 100%;
     max-height: 100%;
+    border-radius: 1em;
+    border: 1px solid black;
 }
 
 .home_layout {
@@ -37,6 +41,17 @@
     margin-bottom: 1em;
 }
 
+.carousel_image_text_title {
+    font-size: 1em !important;
+}
+
+.carousel_image_text_subtitle {
+    font-size: 0.75em !important;
+}
+
+/*
+    Small devices
+*/
 @media (max-width: 1122px) {
     .home_layout {
         width: 75%;
@@ -74,6 +89,9 @@
     }
 }
 
+/*
+    Medium Devices
+*/
 @media (min-width: 1123px) {
     .home_layout {
         width: 75%;
@@ -111,6 +129,9 @@
     }
 }
 
+/*
+    Large devices
+*/
 @media (min-width: 1400px) {
     .home_layout {
         width: 75%;

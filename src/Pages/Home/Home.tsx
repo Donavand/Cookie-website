@@ -19,40 +19,60 @@ export const Home = (): JSX.Element => (
         <div className="home_layout">
             <h1 className="home_title">{TextConstants.HOME.TITLE}</h1>
             <div className="home_subtitle">{TextConstants.HOME.CONTENT}</div>
-            <Carousel interval={500_000}>
+            <Carousel>
                 <Carousel.Item>
                     <img className="carousel_image" src={cookies1} />
-                    <Carousel.Caption>
-                        <h3>{TextConstants.HOME.COOKIE_1_TITLE}</h3>
-                        <p>{TextConstants.HOME.COOKIE_1_SUBTITLE}</p>
+                    <Carousel.Caption className="carousel_image_text">
+                        <div className="carousel_image_text_title">
+                            {TextConstants.HOME.COOKIE_1_TITLE}
+                        </div>
+                        <p className="carousel_image_text_subtitle">
+                            {TextConstants.HOME.COOKIE_1_SUBTITLE}
+                        </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="carousel_image" src={cookies2} />
-                    <Carousel.Caption>
-                        <h3>{TextConstants.HOME.COOKIE_2_TITLE}</h3>
-                        <p>{TextConstants.HOME.COOKIE_2_SUBTITLE}</p>
+                    <Carousel.Caption className="carousel_image_text">
+                        <div className="carousel_image_text_title">
+                            {TextConstants.HOME.COOKIE_2_TITLE}
+                        </div>
+                        <p className="carousel_image_text_subtitle">
+                            {TextConstants.HOME.COOKIE_2_SUBTITLE}
+                        </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="carousel_image" src={cookies3} />
-                    <Carousel.Caption>
-                        <h3>{TextConstants.HOME.COOKIE_3_TITLE}</h3>
-                        <p>{TextConstants.HOME.COOKIE_3_SUBTITLE}</p>
+                    <Carousel.Caption className="carousel_image_text">
+                        <div className="carousel_image_text_title">
+                            {TextConstants.HOME.COOKIE_3_TITLE}
+                        </div>
+                        <p className="carousel_image_text_subtitle">
+                            {TextConstants.HOME.COOKIE_3_SUBTITLE}
+                        </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="carousel_image" src={cookies4} />
-                    <Carousel.Caption>
-                        <h3>{TextConstants.HOME.COOKIE_4_TITLE}</h3>
-                        <p>{TextConstants.HOME.COOKIE_4_SUBTITLE}</p>
+                    <Carousel.Caption className="carousel_image_text">
+                        <div className="carousel_image_text_title">
+                            {TextConstants.HOME.COOKIE_4_TITLE}
+                        </div>
+                        <p className="carousel_image_text_subtitle">
+                            {TextConstants.HOME.COOKIE_4_SUBTITLE}
+                        </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="carousel_image" src={cookies5} />
-                    <Carousel.Caption>
-                        <h3>{TextConstants.HOME.COOKIE_5_TITLE}</h3>
-                        <p>{TextConstants.HOME.COOKIE_5_SUBTITLE}</p>
+                    <Carousel.Caption className="carousel_image_text">
+                        <div className="carousel_image_text_title">
+                            {TextConstants.HOME.COOKIE_5_TITLE}
+                        </div>
+                        <p className="carousel_image_text_subtitle">
+                            {TextConstants.HOME.COOKIE_5_SUBTITLE}
+                        </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
