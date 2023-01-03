@@ -11,8 +11,16 @@ export const TextConstants = {
     },
     HOME: {
         CONTENT:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        TITLE: "Home",
+            "These are the most popular cookies I sell at my store. I hope these pictures make you as hungry as I am by looking at them. I bake them with the utmost care and utmost perfection for perfection from oven to mouth, thank you so much for your business, I hope to see you often!",
+        COOKIE_1_SUBTITLE: "Baked and seasoned for hours",
+        COOKIE_1_TITLE: "Butter cookies",
+        COOKIE_2_SUBTITLE: "Icing applied carefully",
+        COOKIE_2_TITLE: "Red Velvet",
+        COOKIE_3_SUBTITLE: "Sugar applied with the utmost care",
+        COOKIE_3_TITLE: "Sugar cookies",
+        COOKIE_4_SUBTITLE: "Chips right from the Dutch",
+        COOKIE_4_TITLE: "Chocolate Chip",
+        TITLE: "Bac N Cookies",
     },
     NAVBAR: {
         BRAND: "Bac N Cookies",
